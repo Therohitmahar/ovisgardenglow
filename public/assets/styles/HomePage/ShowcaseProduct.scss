@@ -1,0 +1,26 @@
+.showcase-product {
+  height: 60vh;
+  width: 100vw;
+  padding: 60px;
+  * {
+    // outline: 1px solid red;
+  }
+  .single-showcase {
+    width: 170px;
+    height: 100%;
+    background: #F7F7F7 ;
+    // aspect-ratio: 1/2;
+  }
+  .showcase-image-container {
+    height: 60%;
+    .showcase-image {
+      object-fit: contain;
+      height: 100%;
+      // aspect-ratio: 3/4;
+    }
+  }
+  p {
+    text-overflow:ellipsis ;
+    white-space: wrap;
+  }
+}

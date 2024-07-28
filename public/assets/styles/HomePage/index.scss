@@ -1,13 +1,23 @@
+@import "./FeaturedProduct.scss";
+@import "./ShowcaseProduct.scss";
+
 .home-page {
   // object-fit: fill;
   overflow-y: hidden;
   width: 100vw;
   object-fit: contain;
+  .image-container {
+    position: relative;
+    // box-shadow: 0px 20px 10px 10px black;
+    .fade-effect {
+      background: linear-gradient(to bottom, rgba(255, 0, 0, 0), white);
+      width: 100%;
+      height: 250px;
+      position: absolute;
+      bottom: 0;
+    }
+  }
   .cover-image {
-    // height: 100vh;
-    // width: 100vw;
-    // object-fit: contain;
-    // height: 720px;
     height: auto;
     width: 100%;
   }
@@ -21,7 +31,7 @@
       line-height: 32px;
       text-align: left;
       color: white;
-      svg{
+      svg {
         height: 50px;
         width: 50px;
       }
@@ -36,6 +46,73 @@
 
         li {
           cursor: pointer;
+          &:hover {
+            svg {
+              margin-top: 4px;
+            }
+          }
+          svg {
+            margin-left: 5px;
+            width: 20px;
+            aspect-ratio: 1/1;
+            transition: 0.1s ease-in;
+          }
+        }
+      }
+    }
+  }
+  .hero-content {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    h1 {
+      text-transform: capitalize;
+      font-family: Lato;
+      font-size: 52px;
+      font-weight: 400;
+      line-height: 70px;
+      letter-spacing: -0.01em;
+      text-align: center;
+    }
+    p {
+      // font-family: Gilroy-Regular;
+      font-size: 16px;
+      line-height: 28.4px;
+      text-align: center;
+      font-weight: 100;
+    }
+    .search-bar-container {
+      margin-top: 20px;
+      border: 0.86px solid #ffffff99;
+      border-radius: 40px;
+      width: fit-content;
+      align-self: center;
+
+      padding-left: 10px;
+      background: #ffffff26;
+      .input {
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 21px;
+        height: 30px;
+        color: #ffffffcc;
+        &:focus {
+          outline: none;
+          border: none;
+        }
+      }
+      button {
+        background-color: #e58411;
+        border-radius: 50%;
+        width: 22px;
+        margin: 5px;
+        aspect-ratio: 1/1;
+        svg {
+          width: 15px;
+          aspect-ratio: 1/1;
         }
       }
     }
