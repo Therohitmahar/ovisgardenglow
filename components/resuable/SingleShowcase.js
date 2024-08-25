@@ -1,3 +1,4 @@
+import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 const SingleShowcase = ({ title = "", desc = "", image = "" }) => {
@@ -16,8 +17,14 @@ const SingleShowcase = ({ title = "", desc = "", image = "" }) => {
 
       <p className="show-case-title">{title}</p>
       <p className="show-case-desc">{desc}</p>
+      <ViewMoreBtn />
     </div>
   );
 };
 
 export default SingleShowcase;
+export const ViewMoreBtn = () => (
+  <button className="view-more-btn flex items-center">
+    View more <ChevronRight />
+  </button>
+);

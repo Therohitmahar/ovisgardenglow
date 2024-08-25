@@ -1,0 +1,40 @@
+.single-product {
+  width: 251.5px;
+  height: 451.5px;
+
+  .single-product-image {
+    width: 251.5px;
+    height: 346.5px;
+    object-fit: cover;
+    background-color: #f6f6f6;
+    margin-bottom: 24px;
+  }
+  .single-product-details {
+    text-align: center;
+    gap: 9px;
+    p {
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 15px;
+      text-align: center;
+    }
+    .star-container {
+      svg {
+        width: 12px;
+      }
+    }
+    span {
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 15px;
+    }
+    .product-price {
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: 800;
+      line-height: 21px;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import SingleShowcase from "../resuable/SingleShowcase";
+import SingleShowcase, { ViewMoreBtn } from "../resuable/SingleShowcase";
 import astronaut from "../../public/assets/images/astronaut.png";
 function ShowcaseProduct() {
   return (
@@ -10,7 +10,10 @@ function ShowcaseProduct() {
         image={astronaut}
       />
       <MiddleProduct />
-      <SingleShowcase />
+      <SingleShowcase
+        title="Resting Head Decor"
+        desc="a stylish and aesthetic addition to any room, with its Unique design and eye catching Decor creating the ultimate table experience."
+      />
     </div>
   );
 }
@@ -18,5 +21,16 @@ function ShowcaseProduct() {
 export default ShowcaseProduct;
 
 const MiddleProduct = () => {
-  return <div>ShowcaseProduct</div>;
+  return (
+    <div className="middle-product flex items-center flex-col">
+      <div className="content text-center flex flex-col items-center">
+        <p className="show-case-title">Square Pot Marble </p>
+        <p className="show-case-desc text-center">
+          Introducing our newest Pot, the perfect combination of style. Designed
+          to elevate your living space and provide ultimate View.
+        </p>
+        <ViewMoreBtn />
+      </div>
+    </div>
+  );
 };

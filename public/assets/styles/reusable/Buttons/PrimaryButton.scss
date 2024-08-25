@@ -1,0 +1,14 @@
+.primary-btn {
+  padding: 6px 18px;
+  background-color: #2f302c;
+  color: #fff;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  text-align: left;
+  &.secondary{
+    background-color: #F6F6F6;
+    color: #2F302C;
+  }
+}
