@@ -1,12 +1,15 @@
 .all-products-wrapper {
   overflow-y: hidden;
   gap: 44.25px;
+  .all-products-container{
+
+    padding-top: 162px;
+  }
   .all-products {
     padding: 0;
     width: 808.5px;
     // height: 100vh;
     margin: -1rem;
-    padding-top: 162px;
     gap: 27px;
     .navbar {
     }

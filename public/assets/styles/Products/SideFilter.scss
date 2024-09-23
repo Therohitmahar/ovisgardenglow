@@ -1,23 +1,24 @@
+.title {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 27px;
+  text-align: left;
+  color: #2f302c;
+  margin-bottom: 30px;
+  &::after {
+    content: "";
+    display: block;
+    width: 18%;
+    height: 4.5px;
+    background-color: #2f302c;
+  }
+}
 .side-filter {
   margin-top: 146px;
   width: 190.5px;
   .single-accordion {
-    .title {
-      font-family: Lato;
-      font-size: 18px;
-      font-weight: 800;
-      line-height: 27px;
-      text-align: left;
-      color: #2f302c;
-      margin-bottom: 30px;
-      &::after {
-        content: "";
-        display: block;
-        width: 18%;
-        height: 4.5px;
-        background-color: #2f302c;
-      }
-    }
+   
     .sub-category {
       font-family: Lato;
       font-size: 15px;
