@@ -1,0 +1,42 @@
+footer {
+  .footer-links {
+    margin-block: 84px 54px;
+    h3 {
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: 800;
+      line-height: 21px;
+      text-align: left;
+      margin-bottom: 21px;
+      color: #2f302c;
+    }
+    ul li {
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 15px;
+      text-align: left;
+      margin-bottom: 21px;
+      color: #7e7f7c;
+      &:hover {
+        color: #0a0909;
+      }
+    }
+  }
+  .copy-right {
+    width: 1044px;
+    margin-block: 54px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    .social-links{
+      gap:10px
+    }
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

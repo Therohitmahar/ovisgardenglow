@@ -5,6 +5,8 @@ import Navbar from "../Navbar/Navbar";
 import HeroContent from "./HeroContent";
 import FeaturedProduct from "./FeaturedProduct";
 import ShowcaseProduct from "./ShowcaseProduct";
+import { WhyChooseUs } from "../WhyChooseUs/WhyChooseUs";
+import Footer from "../Footer/Footer";
 const HomePage = () => {
   return (
     <div className="home-page flex  relative flex-col">
@@ -16,6 +18,8 @@ const HomePage = () => {
       <HeroContent />
       <ShowcaseProduct />
       <FeaturedProduct />
+      <WhyChooseUs />
+      <Footer />
     </div>
   );
 };
