@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const carts = () => {
+const Carts = () => {
   const [items, setItems] = React.useState([
     { id: 1, name: "Product 1", price: 100, quantity: 2 },
     { id: 2, name: "Product 2", price: 200, quantity: 1 },
@@ -49,4 +49,4 @@ const carts = () => {
   );
 };
 
-export default carts;
+export default Carts;
