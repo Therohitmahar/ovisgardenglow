@@ -97,4 +97,4 @@ const Loginpage = () => {
   );
 };
 
-export default loginpage;
+export default Loginpage;
