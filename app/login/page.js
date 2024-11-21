@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import LogoComponent from "@/components/Navbar/LogoComponent";
 import axios from 'axios';
 
-const loginpage = () => {
+const Loginpage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
