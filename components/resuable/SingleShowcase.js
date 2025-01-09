@@ -6,12 +6,11 @@ const SingleShowcase = ({ title = "", desc = "", image = "" }) => {
     <div className="single-showcase">
       <div className="showcase-image-container">
         <Image
-          className="showcase-image"
+          className="showcase-image mx-auto	"
           src={image}
-          srcset=""
           alt="Show image"
-          // width={100}
-          // height={100}
+          width={100}
+          height={100}
         />
       </div>
 

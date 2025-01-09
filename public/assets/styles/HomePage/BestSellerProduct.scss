@@ -1,0 +1,26 @@
+.best-seller-product {
+  width: 1124.45px;
+  height: 613.35px;
+  padding: 48.02px 37.02px;
+  gap: 24.01px;
+  opacity: 0px;
+  h6 {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .best-seller-product-flex{
+    gap: 30px;
+  }
+  .single-product {
+    width: 238.1px;
+    height: 434.29px;
+    .single-product-image{
+      background-color: transparent;
+      margin-bottom: 0;
+      object-fit: contain;
+    }
+  }
+}
+hr {
+  margin-block: 24px;
+}

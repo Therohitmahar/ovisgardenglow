@@ -4,7 +4,7 @@ import { features } from "./variables";
 export const WhyChooseUs = () => {
   return (
     <div className="why-choose-us flex flex-col items-center">
-      <h6>why choose us</h6>
+      <h6 className="headingTitle">why choose us</h6>
       <div className="flex why-container flex-wrap justify-between">
         {features?.map((el) => (
           <SingleWhyUs el={el} key={el.title} />

@@ -1,4 +1,29 @@
 .featured-product {
-  height: 100vh;
+  height: auto;
   width: 100vw;
+  padding-block: 60px;
+  .headingTitle {
+    margin-bottom: 27px;
+  }
+
+  .tabs-array {
+    gap: 36px;
+    margin-bottom: 54px;
+    .single-tab {
+      &.active {
+        text-decoration: underline;
+        text-underline-offset: 6px;
+      }
+    }
+  }
+  .product-container {
+    width: 1044px;
+    gap: 27px;
+    margin-inline: auto;
+    justify-content: center;
+    .star-container svg{
+      margin-right: 3px;
+      fill: #F6973F;
+    }
+    }
 }

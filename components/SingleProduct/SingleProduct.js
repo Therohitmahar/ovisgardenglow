@@ -7,18 +7,22 @@ const SingleProduct = ({
   productCategory = "Table Decor",
   noOfStarts = [1, 1, 1, 1, 0.5],
   price = 1900,
+  imgSrc = "",
+  hideCategory = false,
 }) => {
+  console.log(imgSrc, "logs imgSrc");
+
   return (
     <div className="single-product flex flex-col items-center">
       <img
-        src="https://www.shopaccino.com/images/decor-banner.png"
+        src={imgSrc || "https://www.shopaccino.com/images/decor-banner.png"}
         alt="Product image"
         className="single-product-image"
       />
       <div className="single-product-details flex flex-col ">
         <div>
           <p className="capitalize text-center">{productTitle}</p>
-          <span>({productCategory})</span>
+          {!hideCategory && <span>({productCategory})</span>}
         </div>
         <div className="star-container flex text-center justify-center">
           {noOfStarts?.map((el) => {
