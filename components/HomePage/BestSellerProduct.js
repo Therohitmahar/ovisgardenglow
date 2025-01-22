@@ -15,6 +15,7 @@ const BestSellerProduct = () => {
               el={el}
               price={el?.price}
               imgSrc={el?.image?.src}
+              productId={el?.id}
             />
           );
         })}

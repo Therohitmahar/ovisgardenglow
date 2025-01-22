@@ -1,0 +1,134 @@
+.particular-product-detail {
+  height: 834px;
+  width: 100vw;
+  background: #f6f6f6;
+  padding-top: 146px;
+  .particular-image-wrapper {
+    height: 480px;
+    .image-backdrop-ball {
+      position: absolute;
+      width: 321px;
+      height: 321px;
+      background: linear-gradient(180deg, #d9dae1 0%, #949798 100%);
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+    }
+    img {
+      position: relative;
+      z-index: 1;
+    }
+  }
+  .particular-product-specification {
+    box-shadow: 0px 0px 0px 0px #0000000d;
+    box-shadow: 0px 15px 33.75px 0px #0000000a;
+    box-shadow: 0px 60.75px 60.75px 0px #0000000a;
+    box-shadow: 0px 137.25px 82.5px 0px #00000005;
+    box-shadow: 0px 244.5px 97.5px 0px #00000003;
+    box-shadow: 0px 381.75px 106.5px 0px #00000000;
+
+    width: 480px;
+    height: 524px;
+    padding: 27px;
+    background-color: #fff;
+    h1 {
+      font-family: Lato;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 30px;
+      margin-bottom: 32px;
+    }
+    hr {
+      margin-block: 32px;
+      width: 45%;
+    }
+    .star-and-reviews {
+      .primary-btn {
+        margin-inline: 18px;
+        padding: 3px 9px;
+      }
+      .stars-wrapper {
+        svg {
+          width: 14.5px;
+          height: 14.5px;
+          margin-right: 3px;
+        }
+      }
+      .total-sold {
+        &:not(:last-child)::after {
+          content: "";
+          display: inline-block;
+          width: 3px;
+          height: 3px;
+          background-color: #7e7f7c;
+          border-radius: 50%;
+          margin-inline: 9px;
+        }
+      }
+    }
+    .types-switch {
+      p {
+        font-family: Lato;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        margin-bottom: 15px;
+        color: #7e7f7c;
+      }
+      .types-switcher {
+        gap: 12px;
+      }
+      .primary-btn {
+        font-weight: 700;
+      }
+    }
+    .quantity-and-price {
+      .price {
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30px;
+        .wrong-price {
+          text-decoration: line-through;
+          color: #ce0000;
+        }
+        .right-price {
+          color: #23856d;
+        }
+      }
+    }
+  }
+}
+.more-product-data {
+  padding-block: 61px;
+  padding-inline: auto;
+  .tabs-array {
+    .single-tab {
+      font-family: Lato;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 30px;
+    }
+  }
+  .reusable-description {
+    width: 588px;
+    height: 190.5px;
+
+    h4 {
+      font-family: Lato;
+      font-size: 15px;
+      font-weight: 800;
+      line-height: 21px;
+      text-transform: uppercase;
+      margin-bottom: 22.5px;
+    }
+    .description-text {
+      font-family: Lato;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 21px;
+      color: #7E7F7C;
+    }
+  }
+}

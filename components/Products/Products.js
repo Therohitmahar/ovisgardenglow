@@ -19,9 +19,9 @@ const Products = () => {
           <PrimaryBtn variant="red">ON SALE</PrimaryBtn>
         </div>
         <div className="all-products flex flex-wrap">
-          {arr?.map((el) => (
+          {arr?.map((el, index) => (
             <>
-              <SingleProduct />
+              <SingleProduct productId={index} />
             </>
           ))}
         </div>

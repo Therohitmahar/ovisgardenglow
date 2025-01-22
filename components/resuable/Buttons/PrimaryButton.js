@@ -1,10 +1,15 @@
 import React from "react";
 
-const PrimaryBtn = ({ children, variant = "" }) => {
+const PrimaryBtn = (props) => {
+  const { children, variant = "" } = props || {};
   return (
     <button
-      style={{ backgroundColor: variant == "red" ? "#CE0000" : "" }}
-      className="primary-btn"
+      {...props}
+      style={{
+        backgroundColor:
+          variant == "grey" ? "#F6F6F6" : variant == "red" ? "#CE0000" : "",
+      }}
+      className={`${props?.className} primary-btn ${variant}`}
     >
       {children}
     </button>

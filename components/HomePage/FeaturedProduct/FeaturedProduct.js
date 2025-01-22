@@ -12,6 +12,7 @@ const FeaturedProduct = () => {
         {FeaturedProducts.map((product, index) => (
           <SingleProduct
             key={product.id}
+            productId={product.id}
             el={product}
             price={product?.price}
             imgSrc={product?.image?.src}
