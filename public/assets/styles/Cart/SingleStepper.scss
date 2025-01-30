@@ -1,0 +1,36 @@
+.single-stepper {
+  .icon-wrapper {
+    width: 42px;
+    height: 42px;
+    padding: 7.5px;
+    border-radius: 50%;
+    background-color: #2f302c;
+    color: #fff;
+    margin-bottom: 9px;
+    &:not(.active) {
+      background-color: #f6f6f6;
+      color: #2f302c;
+    }
+  }
+  .stepper-title {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-bottom: 9px;
+  }
+}
+.css-3hpdci-MuiSvgIcon-root-MuiStepIcon-root{
+  color: #f6f6f6;
+  .css-1g86afo-MuiStepIcon-text{
+    fill: #2f302c
+  }
+
+}
+.css-3hpdci-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed,
+.css-3hpdci-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #2f302c;
+  .css-1g86afo-MuiStepIcon-text{
+    fill: #f6f6f6
+  }
+}

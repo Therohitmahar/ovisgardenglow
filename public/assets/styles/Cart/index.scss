@@ -1,0 +1,61 @@
+@import "./SingleStepper.scss";
+.cart {
+  .stepper-wrapper {
+    width: 894px;
+  }
+  .cart-items {
+    padding-block: 61px;
+    gap: 60px;
+  }
+  .divider-div {
+    width: 1px;
+    height: 483px;
+    background-color: #d4d4d4;
+  }
+  .items-in-cart {
+    width: 648px;
+    height: auto;
+    gap: 27px;
+    .single-cart-item {
+      width: 648px;
+      height: 195px;
+      gap: 27px;
+      .cart-item-image-wrapper {
+        width: 150px;
+        height: 100%;
+        padding-block: 15px;
+        background-color: #f6f6f6;
+        object-fit: cover;
+        img {
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+      .stars-wrapper {
+        margin-top: 25px;
+        gap: 3px;
+        svg {
+          width: 12px;
+          height: 12px;
+        }
+      }
+      .color-switcher-container {
+        gap: 12px;
+        .color-switcher {
+          width: 24px;
+          height: 24px;
+          &.active {
+            outline: 0.75px solid #2f302c;
+            outline-offset: 3px;
+          }
+        }
+      }
+    }
+  }
+  .order-summary {
+    width: 276px;
+    height: 492px;
+    gap: 54px;
+    opacity: 0px;
+  }
+}

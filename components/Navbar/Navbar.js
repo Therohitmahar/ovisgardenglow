@@ -27,7 +27,9 @@ const Navbar = ({ blackClass = "" }) => {
         } flex w-1/5 justify-between`}
       >
         <div className="cart cursor-pointer flex justify-between gap-1">
-          <ShoppingCart /> <span>1</span>
+          <Link className="flex items-center" href="/cart">
+            <ShoppingCart /> <span>1</span>
+          </Link>
         </div>
         <div className="cursor-pointer heart">
           <Heart />

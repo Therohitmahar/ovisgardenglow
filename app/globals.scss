@@ -33,15 +33,32 @@ $primary-color: green;
 .text-12px {
   font-family: Lato;
   font-size: 12px;
+  line-height: 15px;
+}
+.text-15px {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 21px;
+}
+.text-10px {
+  font-family: Lato;
+  font-size: 10.5px;
   font-weight: 500;
   line-height: 15px;
 }
 .text-grey {
   color: #7e7f7c;
 }
-.mb-32px{
+.mb-32px {
   margin-bottom: 32px;
 }
-.mr-18px{
+.mb-18px {
+  margin-bottom: 18px;
+}
+.mr-18px {
   margin-right: 18px;
+}
+.pt-142px {
+  padding-top: 146px;
 }
