@@ -28,7 +28,7 @@ const CopyRight = () => {
         <Link href={"https://www.instagram.com/garden_glow04/"} target="_blank">
           <Instagram strokeWidth={1.5} />
         </Link>
-        <Link href="https://wa.me/9867458573" target="_blank">
+        <Link href="https://wa.me/9892024557" target="_blank">
           <WhatsappIcon />
         </Link>
       </div>
